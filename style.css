@@ -1,0 +1,58 @@
+/*
+
+rdeca: #E9434B
+črna: #2B2831
+oranžna: #EF414B
+svetlo modra: #C9DEEB
+
+*/
+
+body {
+    color: #2B2831;
+}
+
+.navbar {
+    background-color: #2B2831;
+    
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+    font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #EA5F5A;
+}
+
+h1 {
+    font-size: 4rem;   
+}
+
+.bg-red {
+    background-color: #E9434B;
+}
+
+.bg-red h2,
+.bg-red p {
+    color: white;
+}
+
+.bg-custom-dark {
+    background-color: #2B2831;
+}
+
+.bg-custom-dark p {
+    color: white;
+}
