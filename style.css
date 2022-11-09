@@ -2,10 +2,11 @@
 
 rdeca: #E9434B
 črna: #2B2831
-oranžna: #EF414B
+oranžna: #e95f5a
 svetlo modra: #C9DEEB
 
 */
+
 
 body {
     color: #2B2831;
@@ -25,19 +26,113 @@ body {
     font-weight: bold;
 }
 
+.button-custom-nav {
+    display: none;
+    background-color: #2B2831;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 0.5rem 1.25rem;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    transition: all 0.25s ease;
+    margin: 0.25rem 0;
+}
+
+.button-custom-nav:hover {
+    background-color: #e95f5a;
+    color: white;
+    text-decoration: none;
+}
+
+@media (min-width: 992px) {
+    .button-custom-nav {
+        display: inline-block;
+    }
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    /* font-family: 'Delius Swash Caps', cursive; */
+    font-family: 'Croissant One', cursive;
     font-weight: bold;
-    color: #EA5F5A;
+    color: #e95f5a;
 }
 
 h1 {
-    font-size: 4rem;   
+    font-size: 2.5rem;
+    margin-bottom: -0.25rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 4rem;
+        margin-bottom: -0.5rem;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+h1 span,
+h2 span {
+    color: #2B2831;
+}
+
+h4 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.button-custom {
+    background-color: #2B2831;
+    display: inline-block;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 0.75rem 1.25rem;
+    font-size: 1.5rem;
+    transition: all 0.25s ease;
+    margin: 1rem 0;
+    border-radius: 2px;
+}
+
+.button-custom:hover {
+    background-color: #e95f5a;
+    color: white;
+    text-decoration: none;
+}
+
+.icon {
+    max-width: 50px;
+    margin-right: 20px;
 }
 
 .bg-red {
@@ -54,5 +149,39 @@ h1 {
 }
 
 .bg-custom-dark p {
+    color: white;
+}
+
+.whenandwhere p {
+    /* font-size: 1rem; */
+}
+
+.about h2 {
+    font-family: 'Croissant One', cursive;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 992px) {
+    .about h2 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.about p,
+.about li {
+    font-size: 1.125rem;
+}
+
+.contact p {
+    font-size: 1rem;
+}
+
+.contact a {
+    color: white;
+}
+
+.contact a:hover {
     color: white;
 }
