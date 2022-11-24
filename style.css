@@ -27,13 +27,13 @@ body {
 }
 
 .button-custom-nav {
-    display: none;
+    display: inline-block;
     background-color: #2B2831;
     color: #FFFFFF;
     text-transform: uppercase;
     padding: 0.5rem 1.25rem;
     font-size: 1.25rem;
-    font-weight: bolder;
+    /* font-weight: bolder; */
     transition: all 0.25s ease;
     margin: 0.25rem 0;
 }
@@ -44,11 +44,11 @@ body {
     text-decoration: none;
 }
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
     .button-custom-nav {
         display: inline-block;
     }
-}
+} */
 
 h1,
 h2,
@@ -56,7 +56,6 @@ h3,
 h4,
 h5,
 h6 {
-    /* font-family: Georgia, 'Times New Roman', Times, serif; */
     /* font-family: 'Delius Swash Caps', cursive; */
     font-family: 'Croissant One', cursive;
     font-weight: bold;
@@ -152,10 +151,6 @@ a:hover {
     color: white;
 }
 
-.whenandwhere p {
-    /* font-size: 1rem; */
-}
-
 .about h2 {
     font-family: 'Croissant One', cursive;
     font-size: 2rem;
@@ -172,6 +167,34 @@ a:hover {
 .about p,
 .about li {
     font-size: 1.125rem;
+}
+
+.about h5 {
+    margin-top: 2rem;
+}
+
+.organizers img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.organizers a,
+.organizers a:hover {
+    color: #e95f5a;
+}
+
+.organizers h6 {
+    font-family: 'Open Sans', sans-serif;
+    color: #2B2831;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 767.98px) {
+    .organizers h6 {
+        margin-top: 1rem;
+    }
 }
 
 .contact p {
