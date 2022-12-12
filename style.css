@@ -134,6 +134,15 @@ a:hover {
     margin-right: 20px;
 }
 
+.icon-footer {
+    min-width: 30px;
+    /* height: 20px; */
+}
+
+.gmap_canvas {
+    height: unset !important;
+}
+
 .bg-red {
     background-color: #E9434B;
 }
@@ -149,6 +158,14 @@ a:hover {
 
 .bg-custom-dark p {
     color: white;
+}
+
+.intro h5 {
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1rem;
+    color: #2B2831;
+    text-transform: uppercase;
 }
 
 .about h2 {
